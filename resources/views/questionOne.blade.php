@@ -18,7 +18,7 @@
         <input type="submit" value="Classificar Triângulo">
     </form>
 
-    @if(isset($mensagem))
-        <p>{{ $mensagem }}</p>
+    @if(isset($numero))
+        <p>{{ $numero }}</p>
     @endif
 @endsection

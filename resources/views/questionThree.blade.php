@@ -1,5 +1,3 @@
-<!-- resources/views/formulario_numeros.blade.php -->
-
 @extends('layouts.app')
 
 @section('title', 'Entrada de Números')
