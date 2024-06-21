@@ -10,7 +10,7 @@ class Question_2_Controller extends Controller
     {
         $somaPositivos = 0;
         $totalNegativos = 0;
-        $num = 3;
+        $num = 20;
 
         for ($i = 1; $i <= $num; $i++) {
             $numero = intval($request->input("num{$i}"));

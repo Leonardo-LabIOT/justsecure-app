@@ -6,7 +6,7 @@
 
 @section('content')
     @php
-        $num = 3;
+        $num = 20;
     @endphp
     <h2>Entrar com {{ $num }} números</h2>
     <form action="{{ url('/question-two') }}" method="post">
